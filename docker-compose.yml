@@ -1,0 +1,165 @@
+version: '2'
+
+services:
+  plex:
+    image: linuxserver/plex
+    env_file: 
+      - .env
+    ports:
+      - 32400:8080
+      - 32400:32400/udp
+      - 32469:32469
+      - 32469:32469/udp
+      - 5353:5353/udp
+      - 1900:1900/udp
+    volumes:
+      - "${PATH_TO_KINGSDISK}:/data"
+      - "${PATH_TO_HOME}/plexConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=plex.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=32400
+      - "LETSENCRYPT_HOST=plex.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+      - VERSION=latest
+    networks:
+      - KingsMedia
+      - nginx-proxy
+plex-requests:
+    image: linuxserver/plexrequests
+    env_file: 
+      - .env
+    ports:
+      - 3000:8082
+    volumes:
+      - "${PATH_TO_HOME}/plexRequestsConfig:/config"
+      - "/etc/localtime:/etc/localtime:ro"
+    environment: 
+      - "VIRTUAL_HOST=requests.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=3000
+      - "LETSENCRYPT_HOST=requests.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - URL_BASE=/
+    networks:
+      - KingsMedia
+      - nginx-proxy
+deluge:
+    image: linuxserver/deluge
+    env_file: 
+      - .env
+    ports:
+      - 8112:8083
+    volumes:
+      - "${PATH_TO_DOWNLOADS}:/downloads"
+      - "${PATH_TO_HOME}/delugeConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=deluge.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=8112
+      - "LETSENCRYPT_HOST=deluge.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    networks:
+      - KingsMedia
+      - nginx-proxy
+sabnzbd:
+    image: linuxserver/sabnzbd
+    env_file: 
+      - .env
+    ports:
+      - 8080:8084
+    volumes:
+      - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
+      - "${PATH_TO_DOWNLOADS}/bezig:/incomplete-downloads"
+      - "${PATH_TO_HOME}/sabnzbdConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=sabnzbd.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=8080
+      - "LETSENCRYPT_HOST=sabnzbd.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    networks:
+      - KingsMedia
+      - nginx-proxy
+couchpotato:
+    image: linuxserver/couchpotato
+    env_file: 
+      - .env
+    ports:
+      - 5050:8085
+    volumes:
+      - "${PATH_TO_KINGSDISK}/Movies:/movies"
+      - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
+      - "${PATH_TO_HOME}/couchpotatoConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=couchpotato.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=5050
+      - "LETSENCRYPT_HOST=couchpotato.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    networks:
+      - KingsMedia
+      - nginx-proxy
+sonarr:
+    image: linuxserver/sonarr
+    env_file: 
+      - .env
+    ports:
+      - 8989:8086
+    volumes:
+      - "${PATH_TO_KINGSDISK}:/tv"
+      - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
+      - "${PATH_TO_HOME}/sonarrConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=sonarr.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=8989
+      - "LETSENCRYPT_HOST=sonarr.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    networks:
+      - KingsMedia
+      - nginx-proxy
+ajenti:
+    image: crosbymichael/ajenti
+    env_file: 
+      - .env
+    ports:
+      - 8000:8087
+    volumes:
+      - "${PATH_TO_KINGSDISK}:/tv"
+      - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
+      - "${PATH_TO_HOME}/sonarrConfig:/config"
+    environment: 
+      - "VIRTUAL_HOST=ajenti.${LETSENCRYPT_HOST_WEBSITE}"
+      - VIRTUAL_NETWORK=nginx-proxy
+      - VIRTUAL_PORT=8000
+      - "LETSENCRYPT_HOST=ajenti.${LETSENCRYPT_HOST_WEBSITE}"
+      - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Amsterdam
+    networks:
+      - KingsMedia
+      - nginx-proxy
+      
+networks:
+  KingsMedia:
+    external:
+      name: kings-media
