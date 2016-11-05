@@ -1,0 +1,11 @@
+Nov 05, 2016 15:25:41.203 [0x7f1f7f7ff700] INFO - Plex DLNA Server v1.2.5.2966-3f767e7 - ubuntu PC x86_64 - build: linux-ubuntu-x86_64 - GMT 01:00
+Nov 05, 2016 15:25:41.204 [0x7f1f7f7ff700] INFO - Linux version: 4.4.0-31-generic (#50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016), language: C
+Nov 05, 2016 15:25:41.204 [0x7f1f7f7ff700] INFO - Processor       Intel(R) Celeron(R) CPU  J1900  @ 1.99GHz
+Nov 05, 2016 15:25:41.196 [0x7f1f86b507c0] DEBUG - Unique device name = f30e0a67-75db-df38-4d83-983c0268be0e
+Nov 05, 2016 15:25:41.196 [0x7f1f86b507c0] DEBUG - DLNA server port: 32469
+Nov 05, 2016 15:25:41.196 [0x7f1f86b507c0] DEBUG - PMS: http://127.0.0.1:32400/
+Nov 05, 2016 15:25:41.196 [0x7f1f86b507c0] DEBUG - MyPlex: https://plex.tv/
+Nov 05, 2016 15:25:41.325 [0x7f1f86b507c0] DEBUG - Reading system DLNA client profiles
+Nov 05, 2016 15:25:41.399 [0x7f1f86b507c0] DEBUG - Read 22 DLNA client profiles
+Nov 05, 2016 15:25:41.421 [0x7f1f86b507c0] DEBUG - DLNA device discovery enabled every 60 seconds
+Nov 05, 2016 15:25:41.425 [0x7f1f86b507c0] DEBUG - Initialization complete

@@ -1,0 +1,237 @@
+[INFO    ] 15:36:45 configmanager:70 Setting config directory to: /config
+[INFO    ] 15:36:46 daemon:124 Deluge daemon 1.3.13
+[INFO    ] 15:36:46 configmanager:70 Setting config directory to: /config
+[INFO    ] 15:36:46 core:85 Starting libtorrent 1.0.9.0 session..
+[INFO    ] 15:36:46 rpcserver:367 Starting DelugeRPC server localhost:58846
+[WARNING ] 15:36:46 preferencesmanager:496 Unable to find GeoIP database file!
+[INFO    ] 15:36:46 core:97 *** Start Label plugin ***
+[INFO    ] 15:36:46 pluginmanagerbase:158 Plugin Label enabled..
+[INFO    ] 15:36:46 torrentmanager:650 Successfully loaded state file: /config/state/torrents.state
+[INFO    ] 15:36:47 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53366
+[INFO    ] 15:36:47 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:47 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53368
+[INFO    ] 15:36:47 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:49 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53370
+[INFO    ] 15:36:49 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:51 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53372
+[INFO    ] 15:36:51 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:53 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53378
+[INFO    ] 15:36:53 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:55 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53388
+[INFO    ] 15:36:55 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:57 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53422
+[INFO    ] 15:36:57 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:36:59 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53432
+[INFO    ] 15:36:59 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:01 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53450
+[INFO    ] 15:37:01 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:03 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53454
+[INFO    ] 15:37:03 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:05 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53456
+[INFO    ] 15:37:05 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:07 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53458
+[INFO    ] 15:37:07 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:09 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53460
+[INFO    ] 15:37:09 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:11 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53462
+[INFO    ] 15:37:11 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:13 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53464
+[INFO    ] 15:37:13 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:15 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53466
+[INFO    ] 15:37:15 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:17 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53468
+[INFO    ] 15:37:17 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:19 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53470
+[INFO    ] 15:37:19 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:21 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53474
+[INFO    ] 15:37:21 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:23 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53476
+[INFO    ] 15:37:23 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:25 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53480
+[INFO    ] 15:37:25 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:27 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53482
+[INFO    ] 15:37:27 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:29 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53484
+[INFO    ] 15:37:29 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:31 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53486
+[INFO    ] 15:37:31 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:33 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53488
+[INFO    ] 15:37:33 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:35 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53490
+[INFO    ] 15:37:35 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:37 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53492
+[INFO    ] 15:37:37 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:39 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53494
+[INFO    ] 15:37:39 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:41 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53496
+[INFO    ] 15:37:41 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:43 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53498
+[INFO    ] 15:37:43 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:45 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53500
+[INFO    ] 15:37:45 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:47 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53502
+[INFO    ] 15:37:47 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:49 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53506
+[INFO    ] 15:37:49 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:51 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53510
+[INFO    ] 15:37:51 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:53 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53512
+[INFO    ] 15:37:53 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:55 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53516
+[INFO    ] 15:37:55 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:57 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53518
+[INFO    ] 15:37:57 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:37:59 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53528
+[INFO    ] 15:37:59 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:01 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53540
+[INFO    ] 15:38:01 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:03 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53548
+[INFO    ] 15:38:03 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:05 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53550
+[INFO    ] 15:38:05 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:07 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53554
+[INFO    ] 15:38:07 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:09 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53556
+[INFO    ] 15:38:09 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:11 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53560
+[INFO    ] 15:38:11 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:13 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53562
+[INFO    ] 15:38:13 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:15 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53564
+[INFO    ] 15:38:15 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:17 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53574
+[INFO    ] 15:38:17 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:19 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53586
+[INFO    ] 15:38:19 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:21 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53588
+[INFO    ] 15:38:21 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:23 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53592
+[INFO    ] 15:38:23 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:25 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53594
+[INFO    ] 15:38:25 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:27 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53598
+[INFO    ] 15:38:27 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:29 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53600
+[INFO    ] 15:38:29 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:31 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53602
+[INFO    ] 15:38:31 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:33 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53604
+[INFO    ] 15:38:33 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:35 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53606
+[INFO    ] 15:38:35 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:37 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53608
+[INFO    ] 15:38:37 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:39 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53610
+[INFO    ] 15:38:39 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:41 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53612
+[INFO    ] 15:38:41 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:43 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53614
+[INFO    ] 15:38:43 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:45 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53616
+[INFO    ] 15:38:45 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:47 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53618
+[INFO    ] 15:38:47 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:49 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53620
+[INFO    ] 15:38:49 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:51 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53622
+[INFO    ] 15:38:51 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:53 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53624
+[INFO    ] 15:38:53 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:55 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53632
+[INFO    ] 15:38:55 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:57 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53634
+[INFO    ] 15:38:57 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:38:59 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53636
+[INFO    ] 15:38:59 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:01 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53638
+[INFO    ] 15:39:01 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:03 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53640
+[INFO    ] 15:39:03 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:05 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53642
+[INFO    ] 15:39:05 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:07 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53644
+[INFO    ] 15:39:07 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:09 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53646
+[INFO    ] 15:39:09 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:11 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53648
+[INFO    ] 15:39:11 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:13 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53650
+[INFO    ] 15:39:13 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:15 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53652
+[INFO    ] 15:39:15 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:17 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53654
+[INFO    ] 15:39:17 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:19 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53656
+[INFO    ] 15:39:19 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:21 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53658
+[INFO    ] 15:39:21 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:23 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53660
+[INFO    ] 15:39:23 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:25 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53662
+[INFO    ] 15:39:25 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:27 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53664
+[INFO    ] 15:39:27 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:29 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53666
+[INFO    ] 15:39:29 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:31 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53668
+[INFO    ] 15:39:31 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:33 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53670
+[INFO    ] 15:39:33 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:35 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53672
+[INFO    ] 15:39:35 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:37 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53674
+[INFO    ] 15:39:37 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:39 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53676
+[INFO    ] 15:39:39 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:41 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53678
+[INFO    ] 15:39:41 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:43 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53680
+[INFO    ] 15:39:43 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:45 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53682
+[INFO    ] 15:39:45 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:47 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53684
+[INFO    ] 15:39:47 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:39:49 rpcserver:204 Deluge Client connection made from: 127.0.0.1:53686
+[INFO    ] 15:39:49 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 15:40:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 15:43:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 15:46:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 15:50:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 15:53:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 15:56:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:00:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:03:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:06:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:10:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:13:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:16:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:20:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:23:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:26:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:30:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:33:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:36:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:40:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:43:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:46:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:50:06 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:50:25 rpcserver:204 Deluge Client connection made from: 127.0.0.1:54048
+[INFO    ] 16:50:34 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:50:34 torrentmanager:539 Torrent Westworld.S01E05.Contrapasso.1080p.HBO.WEBRip.DD5.1.H264-monkee[rartv] added by user: localclient
+[WARNING ] 16:52:46 torrentmanager:776 Unable to load fastresume file: [Errno 2] No such file or directory: '/config/state/torrents.fastresume'
+[WARNING ] 16:52:46 torrentmanager:776 Unable to load fastresume file: [Errno 2] No such file or directory: '/config/state/torrents.fastresume.bak'
+[ERROR   ] 16:52:46 torrentmanager:823 Unable to backup /config/state/torrents.fastresume to /config/state/torrents.fastresume.bak: [Errno 2] No such file or directory
+[INFO    ] 16:52:46 torrentmanager:825 Saving the fastresume at: /config/state/torrents.fastresume
+[INFO    ] 16:53:26 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:55:56 torrentmanager:779 Successfully loaded fastresume file: /config/state/torrents.fastresume
+[INFO    ] 16:55:56 torrentmanager:825 Saving the fastresume at: /config/state/torrents.fastresume
+[INFO    ] 16:56:46 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 16:59:06 torrentmanager:779 Successfully loaded fastresume file: /config/state/torrents.fastresume
+[INFO    ] 16:59:06 torrentmanager:825 Saving the fastresume at: /config/state/torrents.fastresume
+[INFO    ] 16:59:57 daemon:193 Waiting for components to shutdown..
+[INFO    ] 16:59:58 torrentmanager:736 Saving the state at: /config/state/torrents.state
+[INFO    ] 17:00:03 torrentmanager:779 Successfully loaded fastresume file: /config/state/torrents.fastresume
+[INFO    ] 17:00:03 torrentmanager:825 Saving the fastresume at: /config/state/torrents.fastresume
+[INFO    ] 17:00:04 pluginmanagerbase:170 Plugin Label disabled..
+[INFO    ] 17:00:04 rpcserver:224 Deluge client disconnected: Connection to the other side was lost in a non-clean fashion: Connection lost.
+[INFO    ] 17:00:04 daemon:193 Waiting for components to shutdown..
