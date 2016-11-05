@@ -13,8 +13,8 @@ services:
       - 5353:5353/udp
       - 1900:1900/udp
     volumes:
-      - "${PATH_TO_KINGSDISK}:/data"
-      - "${PATH_TO_HOME}/plexConfig:/config"
+      - "${PATH_TO_FILES}:/data"
+      - "${PATH_TO_CONFIG}/plexConfig:/config"
     environment: 
       - "VIRTUAL_HOST=plex.${LETSENCRYPT_HOST_WEBSITE}"
       - VIRTUAL_NETWORK=nginx-proxy
@@ -35,7 +35,7 @@ services:
       ports:
         - 8081:3000
       volumes:
-        - "${PATH_TO_HOME}/plexRequestsConfig:/config"
+        - "${PATH_TO_CONFIG}/plexRequestsConfig:/config"
         - "/etc/localtime:/etc/localtime:ro"
       environment: 
         - "VIRTUAL_HOST=requests.${LETSENCRYPT_HOST_WEBSITE}"
@@ -57,7 +57,7 @@ services:
         - 8082:8112
       volumes:
         - "${PATH_TO_DOWNLOADS}:/downloads"
-        - "${PATH_TO_HOME}/delugeConfig:/config"
+        - "${PATH_TO_CONFIG}/delugeConfig:/config"
       environment: 
         - "VIRTUAL_HOST=deluge.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
@@ -79,7 +79,7 @@ services:
       volumes:
         - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
         - "${PATH_TO_DOWNLOADS}/bezig:/incomplete-downloads"
-        - "${PATH_TO_HOME}/sabnzbdConfig:/config"
+        - "${PATH_TO_CONFIG}/sabnzbdConfig:/config"
       environment: 
         - "VIRTUAL_HOST=sabnzbd.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
@@ -99,9 +99,9 @@ services:
       ports:
         - 8084:5050
       volumes:
-        - "${PATH_TO_KINGSDISK}/Movies:/movies"
+        - "${PATH_TO_FILES}/Movies:/movies"
         - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
-        - "${PATH_TO_HOME}/couchpotatoConfig:/config"
+        - "${PATH_TO_CONFIG}/couchpotatoConfig:/config"
       environment: 
         - "VIRTUAL_HOST=couchpotato.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
@@ -121,9 +121,9 @@ services:
       ports:
         - 8085:8989
       volumes:
-        - "${PATH_TO_KINGSDISK}:/tv"
+        - "${PATH_TO_FILES}:/tv"
         - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
-        - "${PATH_TO_HOME}/sonarrConfig:/config"
+        - "${PATH_TO_CONFIG}/sonarrConfig:/config"
       environment: 
         - "VIRTUAL_HOST=sonarr.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
@@ -143,9 +143,9 @@ services:
       ports:
         - 8086:8000
       volumes:
-        - "${PATH_TO_KINGSDISK}:/mnt/hazedisk"
+        - "${PATH_TO_FILES}:/mnt/hazedisk"
         - "${PATH_TO_DOWNLOADS}:/mnt/downloads"
-        - "${PATH_TO_HOME}/ajentiConfig:/etc/ajenti"
+        - "${PATH_TO_CONFIG}/ajentiConfig:/etc/ajenti"
       environment: 
         - "VIRTUAL_HOST=ajenti.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
