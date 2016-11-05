@@ -143,9 +143,9 @@ services:
       ports:
         - 8086:8000
       volumes:
-        - "${PATH_TO_KINGSDISK}:/tv"
-        - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
-        - "${PATH_TO_HOME}/sonarrConfig:/config"
+        - "${PATH_TO_KINGSDISK}:/mnt/hazedisk"
+        - "${PATH_TO_DOWNLOADS}:/mnt/downloads"
+        - "${PATH_TO_HOME}/ajentiConfig:/etc/ajenti"
       environment: 
         - "VIRTUAL_HOST=ajenti.${LETSENCRYPT_HOST_WEBSITE}"
         - VIRTUAL_NETWORK=nginx-proxy
