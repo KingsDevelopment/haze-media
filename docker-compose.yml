@@ -2,7 +2,7 @@ version: '2'
 
 services:
   plex:
-    image: linuxserver/plex
+    image: timhaak/plex
     env_file: 
       - .env
     ports:
@@ -21,6 +21,10 @@ services:
       - VIRTUAL_PORT=32400
       - "LETSENCRYPT_HOST=plex.${LETSENCRYPT_HOST_WEBSITE}"
       - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
+      - "PLEX_USERNAME=${PLEX_USERNAME}"
+      - "PLEX_PASSWORD=${PLEX_PASSWORD}"
+      - RUN_AS_ROOT=true
+      - PLEX_ALLOWED_NETWORKS=0.0.0.0
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Amsterdam
