@@ -43,8 +43,8 @@ services:
         - VIRTUAL_PORT=3000
         - "LETSENCRYPT_HOST=requests.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - URL_BASE=/
       networks:
         - KingsMedia
@@ -64,8 +64,8 @@ services:
         - VIRTUAL_PORT=8112
         - "LETSENCRYPT_HOST=deluge.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - TZ=Europe/Amsterdam
       networks:
         - KingsMedia
@@ -86,8 +86,8 @@ services:
         - VIRTUAL_PORT=8080
         - "LETSENCRYPT_HOST=sabnzbd.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - TZ=Europe/Amsterdam
       networks:
         - KingsMedia
@@ -108,8 +108,8 @@ services:
         - VIRTUAL_PORT=5050
         - "LETSENCRYPT_HOST=couchpotato.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - TZ=Europe/Amsterdam
       networks:
         - KingsMedia
@@ -130,8 +130,8 @@ services:
         - VIRTUAL_PORT=8989
         - "LETSENCRYPT_HOST=sonarr.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - TZ=Europe/Amsterdam
       networks:
         - KingsMedia
@@ -152,8 +152,8 @@ services:
         - VIRTUAL_PORT=8000
         - "LETSENCRYPT_HOST=ajenti.${LETSENCRYPT_HOST_WEBSITE}"
         - "LETSENCRYPT_EMAIL=${LETSENCRYPT_MAIL}"
-        - PUID=1000
-        - PGID=1000
+        - "PUID=${PUID}"
+        - "PGID=${PGID}"
         - TZ=Europe/Amsterdam
       networks:
         - KingsMedia
