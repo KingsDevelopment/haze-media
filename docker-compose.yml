@@ -53,6 +53,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
   deluge:
       image: linuxserver/deluge
       env_file: 
@@ -74,6 +75,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
   sabnzbd:
       image: linuxserver/sabnzbd
       env_file: 
@@ -96,6 +98,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
   couchpotato:
       image: linuxserver/couchpotato
       env_file: 
@@ -118,6 +121,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
   sonarr:
       image: linuxserver/sonarr
       env_file: 
@@ -140,6 +144,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
   ajenti:
       image: crosbymichael/ajenti
       env_file: 
@@ -162,6 +167,7 @@ services:
       networks:
         - KingsMedia
         - nginx-proxy
+      restart: always
       
 networks:
   nginx-proxy:
