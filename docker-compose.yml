@@ -25,8 +25,8 @@ services:
       - "PLEX_PASSWORD=${PLEX_PASSWORD}"
       - RUN_AS_ROOT=true
       - PLEX_ALLOWED_NETWORKS=0.0.0.0
-      - PUID=1000
-      - PGID=1000
+      - "PUID=${PUID}"
+      - "PGID=${PGID}"
       - TZ=Europe/Amsterdam
       - VERSION=latest
     networks:
@@ -130,7 +130,7 @@ services:
         - 8085:8989
       volumes:
         - "${PATH_TO_FILES}:/tv"
-        - "${PATH_TO_DOWNLOADS}/klaar:/downloads"
+        - "${PATH_TO_DOWNLOADS}:/downloads"
         - "${PATH_TO_CONFIG}/sonarrConfig:/config"
       environment: 
         - "VIRTUAL_HOST=sonarr.${LETSENCRYPT_HOST_WEBSITE}"
